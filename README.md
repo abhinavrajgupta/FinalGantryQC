@@ -11,10 +11,13 @@
 Please note that setting up a new Conda environment is required to run these scripts. The Conda environment configuration is provided in the **environment.yml** file. Additionally, please ensure you have an **Ubuntu Linux System** to run this program; otherwise, you might encounter numerous PackageNotFound errors.
 
 ### Installation
-#### Clone the repository and set up the environment:
+#### Cloning the repository:
      git clone https://github.com/abhinavrajgupta/FinalGantryQC
+#### Working Directory:
      cd FinalGantryQC
+#### Setting up the environment:
      conda env create -f environment.yml
+#### Activating the environment:
      conda activate detectenv
 
 ### Adding Modules and Imgaes
